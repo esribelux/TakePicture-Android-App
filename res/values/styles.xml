@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <resources>
+
+        <style name="Toolbar">
+                <item name="android:layout_width">fill_parent</item>
+                <item name="android:layout_height">44sp</item>
+                <item name="android:background">@drawable/toolbar_background</item>
+        </style>
+
+        <style name="ToolbarButton">
+                <item name="android:layout_width">44sp</item>
+                <item name="android:layout_height">44sp</item>
+                <item name="android:layout_centerVertical">true</item>
+                <item name="android:scaleType">center</item>
+                <item name="android:background">@drawable/toolbar_background</item>
+                <item name="android:tint">@color/toolbar_fg</item>
+        </style>
+
+        <style name="ToolbarButtonRight" parent="@style/ToolbarButton">
+                <item name="android:layout_alignParentRight">true</item>
+        </style>
+
+</resources>
